@@ -74,15 +74,6 @@ public class Game extends Observable {
     }
 
     public void burstBullets(int x, int y) {
-//        bullets.add(new Bullet(x, y, 1, 0));
-//        bullets.add(new Bullet(x, y, 0, 1));
-//        bullets.add(new Bullet(x, y, -1, 0));
-//        bullets.add(new Bullet(x, y, 0, -1));
-//        bullets.add(new Bullet(x, y, 1, 1));
-//        bullets.add(new Bullet(x, y, 1, -1));
-//        bullets.add(new Bullet(x, y, -1, 1));
-//        bullets.add(new Bullet(x, y, -1, -1));
-
         bullets.add(bulletPool.addBulletPool(x, y,1, 0));
         bullets.add(bulletPool.addBulletPool(x, y,0, 1));
         bullets.add(bulletPool.addBulletPool(x, y,-1, 0));
