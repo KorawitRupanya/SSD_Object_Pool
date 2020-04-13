@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ObjectPoolTemplate.iml" filepath="$PROJECT_DIR$/ObjectPoolTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSD_Object_Pool.iml" filepath="$PROJECT_DIR$/SSD_Object_Pool.iml" />
     </modules>
   </component>
 </project>

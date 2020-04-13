@@ -16,7 +16,6 @@ public class Game extends Observable {
         alive = true;
         bullets = new ArrayList<Bullet>();
         bulletPool = BulletPool.getInstance();
-        bulletPool.setSize(100);
         mainLoop = new Thread() {
             @Override
             public void run() {

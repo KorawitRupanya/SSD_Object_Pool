@@ -4,7 +4,7 @@ import java.util.List;
 public class BulletPool {
     private static BulletPool instance;
     private List<Bullet> bullet_list;
-    private int size = 10;
+    private int size = 50;
 
     private BulletPool(){
         bullet_list = new ArrayList<>();
@@ -21,17 +21,9 @@ public class BulletPool {
         return instance;
     }
 
-    public int getSize(){
-        return size;
-    }
-
-    public void setSize(int size){
-        this.size = size;
-    }
-
     public Bullet addBulletPool(int x, int y, int dX, int dY){
         if(bullet_list.isEmpty()){
-            for(int i=0; i<size ; i++){
+            for(int i=0; i< size ; i++){
                 bullet_list.add(new Bullet(0, 0, 0, 0));
             }
         }
